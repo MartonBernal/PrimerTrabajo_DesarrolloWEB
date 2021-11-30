@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./style/Registro.css" rel="stylesheet">
+    <!--<link href="./style/Registro.css" rel="stylesheet" type="text/css"/>  -->
+    <title>Registro</title>
+</head>
+<body>
+    <header>
+                             
+    </header>
+
+    <main>
+        <h1>Registro COVID-19</h1>
+        <form>     
+           
+            <div class="field">
+                <label>Departamento</label>
+                <select>
+                    <option selected disabled>Seleccione un Departamento</option>
+                    <option>Antioquia</option>
+                    <option>Atlantico</option>
+                    <option>Bogota D.C</option>
+                    <option>Bolivar</option>
+                    <option>Boyaca</option>
+                    <option>Caldas</option>
+                    <option>Cauca</option>
+                    <option>Cesar</option>
+                    <option>Córdoba</option>
+                    <option>Cundinamarca</option>
+                    <option>Huila</option>
+                    <option>Magdalena</option>
+                    <option>Meta</option>
+                    <option>Nariño</option>
+                    <option>Nte Santander</option>
+                    <option>Quindio</option>
+                    <option>Risaralda</option>
+                    <option>Santander</option>
+                    <option>Sucre</option>
+                    <option>Tolima</option>
+                    <option>Valle del cauca</option>                    
+                </select>
+            </div>
+
+            <div class="field">
+                <label>Fecha</label>
+                <input type="datetime-local" name="Fecha"> 
+            </div>
+
+            <div class="field">
+                <label>Femenino</label>
+                <input type="number" name="Femenino" required placeholder="cantidad"> 
+            </div>
+
+            <div class="field">
+                <label>Masculino</label>
+                <input type="number" name="Masculino" required placeholder="Cantidad"> 
+            </div>
+                      
+            <div class="field">
+                <label>Menores de 49 años</label>
+                <input type="number" name="edad1" required placeholder="Cantidad"> 
+            </div>
+
+            <div class="field">
+                <label>Mayores de 50 años</label>
+                <input type="number" name="edad1" required placeholder="Cantidad"> 
+            </div>
+
+            <div class="field">
+                <label>Causa</label>
+                <input type="number" name="Importado" required placeholder="Importado (viaje)"> 
+                <input type="number" name="Relacionado" required placeholder="Relacionado">
+                <input type="number" name="En estudio" required placeholder="En estudio">
+            </div>
+
+            <div class="field">
+                <label>MANEJO</label>
+                <input type="number" name="Casa" required placeholder="Casa"> 
+                <input type="number" name="Hospital" required placeholder="Hospital">
+                <input type="number" name="UCI" required placeholder="UCI">
+            </div>
+
+            <div class="field">
+                <label>Recuperados</label>
+                <input type="number" name="Edad" required placeholder="Numero de recuperados"> 
+            </div>
+
+            <div class="field">
+                <label>Decesos</label>
+                <input type="number" name="Edad" required placeholder="Numero de decesos"> 
+            </div>        
+            
+            
+           <!--  <div class="submit">
+                <form action="datos.html"></form>
+                <button>GUARDAR</button>                          
+            </div>    -->   
+        </form>
+        <button class="submit" onclick="document.location='datos.html'">GUARDAR</button>
+         
+        
+    </main>
+    
+</body>
+</html>
